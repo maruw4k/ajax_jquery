@@ -1,0 +1,41 @@
+<html>
+
+<head>
+   <meta charset="utf-8">
+   <title>WorldCar</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="description" content="jQuery">
+   <meta name="author" content="PL">
+   <meta charset="UTF-8">
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <script type="text/javascript" src="scripts/script.js"></script>
+</head>
+
+<body>
+  
+   <div class="container">
+     
+      <a href="index.html"> <img class="logo img-responsive center-block" src="car.svg"> </a>
+      
+      <div class="searchBox">
+         <div class="btn-group" role="group">
+            <div class="btn-group" role="group">
+               <button type="button" id="select" class="btn btn-default dropdown-toggle" data-toggle="dropdown"> Wybierz rodzaj samochodu <span class="caret"></span> </button>
+               <ul class="dropdown-menu">
+                  <li><a data-value="Hatchback" class="opcja">Hatchback</a></li>
+                  <li><a data-value="Sedan" class="opcja">Sedan</a></li>
+                  <li><a data-value="Kombi" class="opcja">Kombi</a></li>
+               </ul>
+            </div>
+            <button id="search" type="button" class="btn"> Szukaj </button>
+         </div>
+      </div>
+      <div id="car"> </div>
+   </div>
+   
+</body>
+
+</html>
